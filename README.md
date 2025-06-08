@@ -65,9 +65,16 @@ Hybrid Search: combines keyword matching with vector similarit
 - View auto-generated video sections
 - Click timestamps to navigate to specific moments
 - Explore key topics for each section
+### Architecture Design
 
+Component Architecture
+![image](https://github.com/user-attachments/assets/b90645f2-d3af-4faf-ba68-22a7ace41015)
 
-Key Challenge: Video is 4-dimensional data (width × height × channels × time) with unique complexities:
+Video Processing and Analysis Pipeline
+![image](https://github.com/user-attachments/assets/64c06d99-fc30-430f-ac4f-bd69ad216b00)
+
+### Key Challenge
+ Video is 4-dimensional data (width × height × channels × time) with unique complexities:
 Single frames vs. temporal sequences
 Visual details transcripts miss
 Actions spanning multiple frames
