@@ -11,7 +11,7 @@
 - **FAISS**
 - **FFmpeg** 
 - **yt-dlp**
-- ** Redis
+- **Redis**
 
 ### Frontend
 - **React + TypeScript** 
