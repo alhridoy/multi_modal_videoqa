@@ -1,5 +1,10 @@
-### APP Link
+### APP Link ( Only local)
 - https://videoanalysis-567h.vercel.app/
+
+### Youtube videos
+- https://youtu.be/VkCBWM2e9WY?si=TpzBh3aRLJI0APiq
+
+  
 
 
 
