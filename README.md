@@ -25,7 +25,7 @@
 - **Lucide React**
 
 ### Deployment
--Frontend: Vercel
+- **Frontend: Vercel
 -Backend: Render with postgres+ Redis
   
 
