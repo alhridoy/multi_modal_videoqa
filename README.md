@@ -157,11 +157,10 @@ Input Video → Preprocessing → Tree Building → Indexing → Search Interfac
      ↓              ↓             ↓           ↓            ↓
    Raw MP4    Frame/Audio    Root/Parent/   Triple      Query
               Extraction      Leaf Nodes    Indexing    Processing
-
-ROOT (Overall video description)
+```### ROOT (Overall video description)
 ├── PARENT (Key moments/highlights)
 │   ├── LEAF (Granular segments)
 │   └── LEAF (Visual embeddings)
 └── PARENT (Another scene)
     ├── LEAF (Transcript segments)
-    └── LEAF (More granular data)
+    └── LEAF (More granular data)```
