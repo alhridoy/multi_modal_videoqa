@@ -16,9 +16,7 @@ sqlalchemy>=2.0.0
 alembic>=1.13.0
 yt-dlp>=2023.12.30
 redis>=5.0.0
-
-# Enhanced multimodal capabilities for production improvements
-# torch>=2.0.0  # Temporarily disabled due to Python 3.13 compatibility
-# torchvision>=0.15.0  # Temporarily disabled due to Python 3.13 compatibility
-# clip-by-openai==1.0  # Temporarily disabled due to PyTorch dependency
-# transformers>=4.30.0  # Temporarily disabled due to PyTorch dependency
+torch>=2.0.0  
+torchvision>=0.15.0  
+clip-by-openai==1.0  
+transformers>=4.30.0 
