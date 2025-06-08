@@ -6,14 +6,15 @@
 - **FastAPI** 
 - **SQLAlchemy/Postgres** 
 - **Google Gemini 2.5** 
-- **ChromaDB** 
+- **ChromaDB**
+- **FAISS**
 - **FFmpeg** 
 - **yt-dlp** 
 
 ### Frontend
 - **React + TypeScript** 
 - **Tailwind CSS** 
-- **Vite** - 
+- **Vite** 
 - **Lucide React**
 
 ## Feature Guide
@@ -92,30 +93,29 @@ Early Fusion: all modalities together
 Improvement can be made here: 
 
 
-References:
+## References:
 https://cohere.com/blog/multimodal-embeddings
 https://www.youtube.com/watch?v=t1ik5ofs7Ok&ab_channel=KX
 What are the common failure modes in multimodal search?
-The Multimodal Evolution of Vector Embeddings
+
+https://encord.com/blog/vision-language-models-guide/
+The Multimodal Evolution of Vector Embeddings: https://www.youtube.com/watch?v=t1ik5ofs7Ok&ab_channel=KX
+https://cohere.com/blog/multimodal-embeddings
+
+https://blog.qburst.com/2021/12/multimodal-deep-learning-challenges-and-potential/
 
 
-Hierarchical Temporal-Aware Video-Language Pre-training
-State-of-the-art temporal modeling
-Cross-modal moment exploration
-Multi-modal temporal relations
-What Makes a Video a Video: Analyzing Temporal Information
-Critical analysis of motion vs. spatial information
-Temporal modeling frameworks
-Temporal Sequence Modeling for Video Event Detection
 
 
-Paper
+## Paper
 VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning
 
 A New Hierarchical Key Frame Tree-Based Video Representation
 
 https://arxiv.org/html/2408.11432v1
+https://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_What_Makes_a_CVPR_2018_paper.pdf
 
+https://milvus.io/ai-quick-reference/what-are-the-common-failure-modes-in-multimodal-search
 Content Based Video Retrieval Systems
 
 What is content-based retrieval in video search?
@@ -127,6 +127,7 @@ Visual content based video retrieval on natural language queries
 Bidirectional retrieval approach
 Joint embedding space learning
 Enhancing Subsequent Video Retrieval via Vision-Language Models
+https://ui.adsabs.harvard.edu/abs/2025arXiv250401407P/abstract
 
 
 ##Improvement can be made:
