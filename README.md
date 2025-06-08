@@ -1,4 +1,4 @@
-
+###APP LInk
 
 
 
@@ -9,13 +9,19 @@
 - **ChromaDB**
 - **FAISS**
 - **FFmpeg** 
-- **yt-dlp** 
+- **yt-dlp**
+- ** Redis
 
 ### Frontend
 - **React + TypeScript** 
 - **Tailwind CSS** 
 - **Vite** 
 - **Lucide React**
+
+### Deployment
+-Frontend: Vercel
+-Backend: Render with poistgres+ Redis
+  
 
 ## Feature Guide
 Challenge Requirements vs Your Implementation
