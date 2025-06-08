@@ -15,8 +15,8 @@ class VectorService:
         """Add transcript for simple text search (no actual embedding)"""
         try:
             logger.info(f"Indexing transcript for video {video_id} (simple text search)")
-            # In a real implementation, this would create embeddings
-            # For now, we just log that the transcript is available for search
+            
+            # log that the transcript is available for search
             return {"status": "indexed", "method": "simple_text"}
         except Exception as e:
             logger.error(f"Error indexing transcript: {e}")
