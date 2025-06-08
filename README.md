@@ -20,7 +20,7 @@
 
 ### Deployment
 -Frontend: Vercel
--Backend: Render with poistgres+ Redis
+-Backend: Render with postgres+ Redis
   
 
 ## Feature Guide
