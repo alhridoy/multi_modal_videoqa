@@ -167,3 +167,105 @@ Input Video → Preprocessing → Tree Building → Indexing → Search Interfac
 └── PARENT (Another scene)
     ├── LEAF (Transcript segments)
     └── LEAF (More granular data)```
+### TODO
+
+. Three-Pillar Indexing System
+A. Text Indexing
+Purpose: Find when specific words/phrases were spoken
+Implementation:
+python# Sparse search (exact matching)
+- Use Whisper v3 for transcription
+- Store word-level timestamps
+- Enable keyword search: "find where 'compute' was said"
+
+# Dense embeddings (semantic search)
+- Embed transcript segments
+- Find conceptually related content
+- "Find discussions about computation" (even if 'compute' wasn't said)
+
+
+B. Visual Indexing
+Purpose: Capture what happens visually without audio
+Technical Approach:
+python# Every 10-15 seconds:
+1. Extract video segment
+2. Generate multimodal embedding (maintains temporal features)
+3. Index for visual-only queries
+
+
+C. Highlight Indexing (VLM-based)
+Purpose: Bridge the gap between embeddings and understanding
+Process:
+python# For each 10-60 second segment:
+1. Feed to Vision Language Model (GPT-4V)
+2. Generate detailed text description
+3. Extract structured data (people, locations, events)
+4. Create text embeddings of descriptions
+
+### Hybrid Retrieval Pipeline
+
+User Query
+    ├── Text Search
+    │   ├── Sparse (keywords)
+    │   └── Dense (semantic)
+    ├── Visual Search
+    │   └── Multimodal embeddings
+    └── Highlight Search
+        └── VLM description embeddings
+            ↓
+    Aggregation & Scoring
+            ↓
+    Re-ranking (LLM with context)
+            ↓
+    Results with timestamps
+
+Weight different indices based on query type
+Use LLM as intelligent re-ranker
+Leverage large context windows (1M+ tokens)
+
+
+Transcribe → Identify people → Extract visual cues → Generate highlights with context
+
+
+Transcribe ─┐
+Visual     ─┼─→ Aggregate → Index
+Highlights ─┘
+
+
+Re-ranking:
+
+GPT-4-turbo or similar
+Need large context window support
+
+Video File
+    ├── Metadata DB
+    │   ├── Title/Description (root)
+    │   ├── Highlights (parents)
+    │   └── Timestamps (leaves)
+    ├── Embedding Store
+    │   ├── Text embeddings
+    │   └── Visual embeddings
+    └── Transcript Store
+        └── Word-level timestamps
+
+
+Auto-tagging System
+
+# During VLM processing:
+structured_output = {
+    "description": "...",
+    "people": ["person1", "person2"],
+    "locations": ["MIT campus"],
+    "organizations": ["MIT"],
+    "actions": ["presenting", "discussing"],
+    "objects": ["laptop", "screen"]
+}
+
+
+Prompt Decomposition
+python# "When did I talk to Ian about laptop stickers?"
+decomposed = {
+    "person_filter": "Ian",
+    "topic_search": "laptop stickers",
+    "temporal": "past conversations"
+}
