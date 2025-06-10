@@ -265,7 +265,7 @@ structured_output = {
 Prompt Decomposition
 python# "When did I talk to Zozef about laptop stickers?"
 decomposed = {
-    "person_filter": "Ian",
+    "person_filter": "Zozef",
     "topic_search": "laptop stickers",
     "temporal": "past conversations"
 }
