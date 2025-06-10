@@ -78,6 +78,9 @@ Component Architecture
 Video Processing and Analysis Pipeline
 ![image](https://github.com/user-attachments/assets/64c06d99-fc30-430f-ac4f-bd69ad216b00)
 
+
+![image](https://github.com/user-attachments/assets/9c032516-a337-4847-80bf-c2c665292cb9)
+
 ### Key Challenge
  Video is 4-dimensional data (width × height × channels × time) with unique complexities:
 Single frames vs. temporal sequences
