@@ -109,7 +109,7 @@ Early Fusion: all modalities together
  Unified approach may dilute specific capabilities
 
 
-Improvement can be made here: 
+### Multimodal embedding fails, cause it tries to find needle in haystack
 
 
 ## References:
@@ -149,7 +149,7 @@ Enhancing Subsequent Video Retrieval via Vision-Language Models
 https://ui.adsabs.harvard.edu/abs/2025arXiv250401407P/abstract
 
 
-##Improvement can be made:
+### SOTA results can be achieved 
 
 Proposed Architecture:
 Hybrid Triple Indexing
