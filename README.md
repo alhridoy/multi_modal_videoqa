@@ -137,7 +137,7 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_What_Makes_a_CVPR_2
 https://milvus.io/ai-quick-reference/what-are-the-common-failure-modes-in-multimodal-search
 Content Based Video Retrieval Systems
 
-What is content-based retrieval in video search?
+
 
 AI-Powered Video Captioning Models for Hybrid Video Retrieval
 Combining captioning with embeddings
