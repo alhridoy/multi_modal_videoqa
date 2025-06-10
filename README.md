@@ -255,8 +255,8 @@ Auto-tagging System
 structured_output = {
     "description": "...",
     "people": ["person1", "person2"],
-    "locations": ["MIT campus"],
-    "organizations": ["MIT"],
+    "locations": ["UNM campus"],
+    "organizations": ["UNM"],
     "actions": ["presenting", "discussing"],
     "objects": ["laptop", "screen"]
 }
