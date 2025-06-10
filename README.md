@@ -263,7 +263,7 @@ structured_output = {
 
 
 Prompt Decomposition
-python# "When did I talk to Ian about laptop stickers?"
+python# "When did I talk to Zozef about laptop stickers?"
 decomposed = {
     "person_filter": "Ian",
     "topic_search": "laptop stickers",
