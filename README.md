@@ -234,7 +234,7 @@ Highlights ─┘
 
 Re-ranking:
 
-GPT-4-turbo or similar
+GPT-4 or similar
 Need large context window support
 
 Video File
